@@ -20,8 +20,7 @@ end
     #the first part we can make up the 2ns part is already assigned in index
     the_genre = params[:user_genre]
     the_issue = params[:user_issue]
-    @song 
-    # = get_anthem(the_genre,the_issue)
+    @song = get_anthem(the_genre,the_issue)
     erb :results
   end
 end
