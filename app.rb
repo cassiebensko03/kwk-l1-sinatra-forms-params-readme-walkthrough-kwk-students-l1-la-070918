@@ -75,5 +75,5 @@ def get_anthem(genre,issue)
        end
   end
   
-@song = song
+return song
 end
